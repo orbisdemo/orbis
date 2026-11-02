@@ -39,3 +39,18 @@ header {
     gap: 25px;
     flex-wrap: nowrap;
 }
+/* Orbis Image Logo */
+.brand {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    text-decoration: none;
+}
+
+.brand img {
+    width: 170px;
+    height: auto;
+    max-height: 40px;
+    object-fit: contain;
+    display: block;
+}
