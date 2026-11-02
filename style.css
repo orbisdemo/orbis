@@ -104,3 +104,27 @@ header {
     visibility: visible;
     border-radius: 18px;
 }
+.hero-art {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: visible;
+}
+
+.floating-image {
+    width: 100%;
+    max-width: 480px;
+    height: auto;
+    object-fit: contain;
+    animation: floating 4s ease-in-out infinite;
+}
+
+@keyframes floating {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
