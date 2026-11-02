@@ -87,3 +87,10 @@ header {
     object-fit: cover;
     border-radius: 18px;
 }
+.hero-video {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+    background: transparent;
+}
