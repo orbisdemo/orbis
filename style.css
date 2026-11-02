@@ -94,3 +94,13 @@ header {
     object-fit: contain;
     background: transparent;
 }
+.hero-gif {
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    opacity: 1;
+    visibility: visible;
+    border-radius: 18px;
+}
