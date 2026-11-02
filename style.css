@@ -14,3 +14,10 @@
 .placeholder-file{font-family:monospace}
 .intro-inner .lifecycle{grid-column:1/-1;width:100%}
 @media(max-width:650px){.intro-inner{grid-template-columns:1fr;row-gap:25px;text-align:center}.intro-content h2{font-size:31px}.intro-image-placeholder{min-height:0}.intro-inner .lifecycle{grid-column:auto}}
+.intro-image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 16px;
+  display: block;
+}
